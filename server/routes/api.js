@@ -10,6 +10,9 @@ const {
   deleteUser,
 } = require("../controllers/auth");
 
+// Middleware
+const { auth } = require('../middleware/auth');
+
 //@Endpoint http://localhost:3000/api/register
 //@Method   POST
 //@Access   Publish
